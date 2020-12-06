@@ -1,0 +1,49 @@
+body {
+background-color: #49483E;
+font-size: large;
+font: 0.8em 'Andale Mono', Consolas, 'Courier New';
+color: #A6E22E;
+}
+h2 {
+color: #FFFFFF;
+font: 72px 'Andale Mono', Consolas, 'Courier New';
+margin-top: auto;
+margin-bottom: auto;
+}
+h3 {
+color: #FFFFFF;
+margin-top: auto;
+margin-bottom: 25px;
+}
+input[type=text] {
+background-color: #49483E;
+border-style: none none none none;
+color: #FFFFFF;
+border-color: #A6E22E;
+/*border: 0px 4px 0px 4px;*/
+padding: 1px 6px 1px 6px;
+font-size: 2em;
+min-width: 99%;
+}
+
+
+input[type=submit] {
+background-color: #49483E;
+border-style: none;
+color: #A6E22E;
+border-color: #A6E22E;
+/*border: 0px 4px 0px 4px;*/
+padding: 1px 6px 1px 6px;
+display: none;
+}
+.small {
+font-size: small;
+}
+.grey {
+color: #A6E22E;
+}
+#create input[type=text] {
+color: gray;
+font-style: italic;
+padding: 1px 6px 1px 6px;
+}
